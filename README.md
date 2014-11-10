@@ -23,3 +23,14 @@ The primary difference between `SwiftyJSON.JSON` and
 Objective-C. Also, `JSON.nullJSON` has been renamed to
 `ParsedObject.nullParsedObject` and must be called with `()` as it is no
 longer a getter.
+
+## Usage
+
+```Swift
+import ParsedObject
+```
+
+See [SwiftyJSON's Usage](https://github.com/SwiftyJSON/SwiftyJSON#usage) and
+replace JSON() with ParsedObject().
+
+
